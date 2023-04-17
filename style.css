@@ -627,6 +627,13 @@ label {
     #imgIconPos{
       display: none;
     }
+
+    #demo{
+      width: 100%;
+    }
+    .offcanvas{
+      width: 100%;
+    }
   }
 
   
