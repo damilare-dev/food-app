@@ -5,17 +5,17 @@
 }
 
 #collapsibleNavbar ul {
-  margin-left: 48%;
+  margin-left: 40%;
 }
 
 #collapsibleNavbar > ul a{
-  display: block;
+  display: inline-block;
   color: black;
-  font-weight: 500;
-  padding: 8px 10px;
-  font-size: 13px;
+  font-weight: 800;
+  padding: 8px 5px;
+  font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0px 10px;
+  margin-right: 20px;
 }
 
 #foodPage{
@@ -65,7 +65,7 @@ section{
 
 #imgIcon{
     position: relative;
-    width: 80%;
+    width: 100%;
 }
 
 #imgIcon img{
@@ -75,20 +75,21 @@ section{
 .imgIcon{
     padding: 7px 20px;
     border-radius: 70px;
+    font-weight: 800;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+
 #imgIconPos{
     position: absolute ;
-    left: 85%;
+    left: 90%;
     top: 35%;
-
 }
 
 #imgTxtCrd{
     margin: 5px;
     text-align: center;
-    animation: side-to-side 10s infinite ;
+    animation: side-to-side 4s infinite ;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
@@ -100,6 +101,7 @@ section{
 
 #imgTxtCrd h5{
   font-size: 20px;
+  display: inline;
   font-weight: 600;
   font-family: 'Courier New', Courier, monospace;
 }
@@ -132,7 +134,7 @@ section{
 /* Define the animation */
 @keyframes side-to-side{
     0%{left: 0;}
-    50%{left: calc(13% - 1rem);}
+    50%{left: calc(12% - 1rem);}
     100%{left: 0;}
 }
 
@@ -189,6 +191,13 @@ section{
   font-family: 'Courier New', Courier, monospace;
   font-weight: 600;
   display: inline;
+}
+
+
+#imgTxtCrdMenu p{
+  font-size: 17px;
+  font-weight: 600;
+font-family: 'Times New Roman', Times, serif;
 }
 
 #imgTxtCrdMenu a{
@@ -283,6 +292,11 @@ section{
 
   }
 
+  .chefImg p{
+    padding: 20px 0px;
+    font-weight: 800;
+  }
+
   .chefImg img{
     width: 100%;
     height: 400px;
@@ -302,20 +316,7 @@ section{
   #appInfo p{
     padding: 15px 5px;
   }
-
-  #appInfo button{
-    background-color: orange;
-    border-radius: 40px;
-    padding: 10px 25px;
-    font-weight: 600;
-    margin-top: 20px;
-    border: 1px solid grey;
-  }  
   
-  #appInfo button:hover{
-    background-color: gray;
-    color: white;
-  }
   #email{
     text-decoration: none; 
     border: 0; 
@@ -324,6 +325,14 @@ section{
     border-bottom: 1px solid black;
   }
 
+  #arrowGo{
+    text-decoration: none;
+    color: black;
+  }
+
+  #arrowGo:hover{
+    color: white;
+  }
 footer h3{
     text-align: center;
     font-weight: 700;
@@ -351,9 +360,268 @@ ul{
     color: purple;
   }
 
+  .fa-utensils{
+    background-color: orange;
+    border-radius: 50%;
+    font-size: 30px;
+    padding: 10px;
+    overflow: hidden;
+  }
+
+  .fa-burger{
+    background-color: orange;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 5px;
+    display: inline;
+    overflow: hidden;
+  }
+
+  .fa-bowl-food{
+    background-color: orange;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 5px;
+    display: inline;
+    overflow: hidden;
+  }
+
+  .fa-martini-glass-citrus{
+    background-color: orange;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 5px;
+    display: inline;
+    overflow: hidden;
+  }
+
+  .fa-wine-bottle{
+    background-color: orange;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 5px;
+    display: inline;
+    overflow: hidden;
+  }
+
+  .fa-cake-candles{
+    background-color: orange;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 5px;
+    display: inline;
+    overflow: hidden;
+  }
+
+  .fa-face-grin-hearts{
+    display: inline;
+    color:orange;
+  }
+
+  .fa-magnifying-glass{
+    display: inline;
+    color:orange;
+    position: relative;
+    right: -55%;
+  }
+
+  #search{
+    position: absolute;
+    width: 10px;
+  }
+
+  .fa-location-dot{
+    background-color: orange;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 10px;
+    display: inline;
+    overflow: hidden;
+  }
+  .fa-wheat-awn{
+    background-color: orange;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 10px;
+    display: inline;
+    overflow: hidden;
+  }
+
+  .fa-clock{
+    background-color: orange;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 10px;
+    display: inline;
+    overflow: hidden;
+  }
+
+  .fa-sink{
+    background-color: orange;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 10px;
+    display: inline;
+    overflow: hidden;
+  }
+
+  
+  .fa-user-check{
+    background-color: orange;
+    border-radius: 50%;
+    font-size: 20px;
+    padding:  10px 5px;
+    display: inline;
+    overflow: hidden;
+  }
+  
+  .fa-instagram{
+    background-color: orange;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 10px;
+    display: inline-block;
+    margin: 20px 5px;
+    overflow: hidden;
+  }  
+  
+  .fa-youtube{
+    background-color: orange;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 10px;
+    display: inline-block;
+    margin: 20px 5px;
+    overflow: hidden;
+  }
+  
+  .fa-facebook-f{
+    background-color: orange;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 10px;
+    display: inline-block;
+    margin: 20px 5px;
+    overflow: hidden;
+  }
+  
+  .fa-twitter{
+    background-color: orange;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 10px;
+    display: inline-block;
+    margin: 20px 5px;
+    overflow: hidden;
+  }
+
+  
+  .fa-kitchen-set{
+    background-color: orange;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 10px;
+    display: inline;
+    overflow: hidden;
+  }
+  
+  .fa-arrow-right{
+    background-color: orange;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 12px;
+    display: inline;
+    overflow: hidden;
+  }
+
+  
+  .fa-arrow-right:hover{
+    background-color: black;
+  }
+
+  .fa-star{
+    color: gold;
+    font-size: 20px;
+  }
+
+  .fa-apple{
+    font-size: 25px;
+    display: inline;
+  }
+
+  
+  .fa-google-play{
+    font-size: 25px;
+    display: inline;
+  }
+
+
+  #googlePlay{
+    background-color: white;
+    border-radius: 40px;
+    padding: 10px 25px;
+    font-weight: 600;
+    margin-top: 20px;
+    border: 2px solid orange;
+  }
+
+  #appStore{
+    background-color: orange;
+    border-radius: 40px;
+    padding: 10px 25px;
+    font-weight: 600;
+    margin-top: 20px;
+    border: 1px solid grey;
+  }
+
+  
+  #appStore:hover{
+    background-color: gray;
+    color: white;
+  }
+
+  
+  #googlePlay:hover{
+    background-color: gray;
+    color: white;
+  }
+
+  /* offside canvas css */
+  
+.container-tooltip {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.container-tooltip  h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.container-tooltip .btn-primary {
+  width: 100%;
+}
+
+.container-tooltip .modal-body {
+  text-align: center;
+}
+
+
   @media(max-width:500px){
     #foodReserve{
-      display: none;
+      /* display: none; */
     }
 
     #imgIconPos{
